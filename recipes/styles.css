@@ -1,17 +1,16 @@
 body {
-    margin-left: 5vw;
-    background-color: lightgray;
+    background-color: white;
 }
 
 p {
-    max-width: 50vw;
+    max-width: 40vw;
 }
 
 img {
+    display: block;
     height: auto;
     width: 25vw;
-    position: 50vw;
-    margin-left: 5vw;
+    margin: 0 auto;
 }
 
 ul li {
@@ -28,14 +27,35 @@ ol {
 h1, h2, h3 {
     text-transform: uppercase;
     font-weight: bold;
+    text-align: center;
 } 
 
 h1 {
     text-decoration: underline;
+    padding-top: 1em;
+}
+
+.description-container p {
+    text-align: center;
+    padding-left: 5vw;
 }
 
 .recipe-card {
     width: 50vw;
     border: 2px solid lightgray;
     background-color: bisque;
+    margin: 50px auto;
+}
+
+.ingredient-list {
+    display: block;
+    margin: 0 auto;
+}
+
+.ingredient-list ul {
+    padding: 0 17vw
+}
+
+.ingredient-list ul li {
+    max-width: 25vw;
 }
