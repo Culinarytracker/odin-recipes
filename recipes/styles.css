@@ -33,3 +33,9 @@ h1, h2, h3 {
 h1 {
     text-decoration: underline;
 }
+
+.recipe-card {
+    width: 50vw;
+    border: 2px solid lightgray;
+    background-color: bisque;
+}
